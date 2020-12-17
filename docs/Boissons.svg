@@ -1,0 +1,104 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="310" height="254" view_box="0 0 310 254"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Thu, 17 Dec 2020 04:55:30</desc>
+
+<rect id="frame" x="0" y="0" width="310" height="254" fill="#f7f7f7" stroke="none" stroke-width="0"/>
+
+<!-- Association contient -->
+<line x1="54" y1="43" x2="54" y2="127" stroke="#9970ab" stroke-width="2"/>
+<text x="59.0" y="94" fill="#1b7837" font-family="Verdana" font-size="12">1,1</text>
+<line x1="54" y1="211" x2="54" y2="127" stroke="#9970ab" stroke-width="2"/>
+<text x="59.0" y="178" fill="#1b7837" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-contient">
+	<path d="M 72 102 a 14 14 90 0 1 14 14 V 127 h -64 V 116 a 14 14 90 0 1 14 -14" fill="#c2a5cf" stroke="#c2a5cf" stroke-width="0"/>
+	<path d="M 86 127.0 v 11 a 14 14 90 0 1 -14 14 H 36 a 14 14 90 0 1 -14 -14 V 127.0 H 64" fill="#e7d4e8" stroke="#e7d4e8" stroke-width="0"/>
+	<rect x="22" y="102" width="64" height="50" fill="none" rx="14" stroke="#9970ab" stroke-width="2"/>
+	<line x1="22" y1="127" x2="86" y2="127" stroke="#9970ab" stroke-width="1"/>
+	<text x="29" y="119.7" fill="#000000" font-family="Verdana" font-size="12">contient</text>
+</g>
+
+<!-- Association achat -->
+<line x1="165" y1="127" x2="266" y2="127" stroke="#9970ab" stroke-width="2"/>
+<text x="215" y="144.0" fill="#1b7837" font-family="Verdana" font-size="12">1,1</text>
+<line x1="266" y1="211" x2="266" y2="127" stroke="#9970ab" stroke-width="2"/>
+<text x="271.0" y="169" fill="#1b7837" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-achat">
+	<path d="M 276 102 a 14 14 90 0 1 14 14 V 127 h -48 V 116 a 14 14 90 0 1 14 -14" fill="#c2a5cf" stroke="#c2a5cf" stroke-width="0"/>
+	<path d="M 290 127.0 v 11 a 14 14 90 0 1 -14 14 H 256 a 14 14 90 0 1 -14 -14 V 127.0 H 48" fill="#e7d4e8" stroke="#e7d4e8" stroke-width="0"/>
+	<rect x="242" y="102" width="48" height="50" fill="none" rx="14" stroke="#9970ab" stroke-width="2"/>
+	<line x1="242" y1="127" x2="290" y2="127" stroke="#9970ab" stroke-width="1"/>
+	<text x="249" y="119.7" fill="#000000" font-family="Verdana" font-size="12">achat</text>
+</g>
+
+<!-- Association compose -->
+<line x1="266" y1="211" x2="165" y2="211" stroke="#9970ab" stroke-width="2"/>
+<text x="204" y="228.0" fill="#1b7837" font-family="Verdana" font-size="12">1,N</text>
+<line x1="54" y1="211" x2="165" y2="211" stroke="#9970ab" stroke-width="2"/>
+<text x="104" y="228.0" fill="#1b7837" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-compose">
+	<path d="M 185 186 a 14 14 90 0 1 14 14 V 211 h -68 V 200 a 14 14 90 0 1 14 -14" fill="#c2a5cf" stroke="#c2a5cf" stroke-width="0"/>
+	<path d="M 199 211.0 v 11 a 14 14 90 0 1 -14 14 H 145 a 14 14 90 0 1 -14 -14 V 211.0 H 68" fill="#e7d4e8" stroke="#e7d4e8" stroke-width="0"/>
+	<rect x="131" y="186" width="68" height="50" fill="none" rx="14" stroke="#9970ab" stroke-width="2"/>
+	<line x1="131" y1="211" x2="199" y2="211" stroke="#9970ab" stroke-width="1"/>
+	<text x="138" y="203.7" fill="#000000" font-family="Verdana" font-size="12">compose</text>
+	<text x="138" y="228.8" fill="#000000" font-family="Verdana" font-size="12">quantité</text>
+</g>
+
+<!-- Entity BOISSON -->
+<g id="entity-BOISSON">
+	<g id="frame-BOISSON">
+		<rect x="231" y="177" width="70" height="25" fill="#a6dba0" stroke="#a6dba0" stroke-width="0"/>
+		<rect x="231" y="202.0" width="70" height="43" fill="#d9f0d3" stroke="#d9f0d3" stroke-width="0"/>
+		<rect x="231" y="177" width="70" height="68" fill="none" stroke="#5aae61" stroke-width="2"/>
+		<line x1="231" y1="202" x2="301" y2="202" stroke="#5aae61" stroke-width="1"/>
+	</g>
+	<text x="236" y="194.7" fill="#000000" font-family="Verdana" font-size="12">BOISSON</text>
+	<text x="236" y="219.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<line x1="236" y1="222" x2="264" y2="222" stroke="#000000" stroke-width="1"/>
+	<text x="236" y="236.8" fill="#000000" font-family="Verdana" font-size="12">prix</text>
+</g>
+
+<!-- Entity INGREDIENT -->
+<g id="entity-INGREDIENT">
+	<g id="frame-INGREDIENT">
+		<rect x="9" y="186" width="90" height="25" fill="#a6dba0" stroke="#a6dba0" stroke-width="0"/>
+		<rect x="9" y="211.0" width="90" height="25" fill="#d9f0d3" stroke="#d9f0d3" stroke-width="0"/>
+		<rect x="9" y="186" width="90" height="50" fill="none" stroke="#5aae61" stroke-width="2"/>
+		<line x1="9" y1="211" x2="99" y2="211" stroke="#5aae61" stroke-width="1"/>
+	</g>
+	<text x="14" y="203.7" fill="#000000" font-family="Verdana" font-size="12">INGREDIENT</text>
+	<text x="14" y="228.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<line x1="14" y1="231" x2="42" y2="231" stroke="#000000" stroke-width="1"/>
+</g>
+
+<!-- Entity HISTORIQUE -->
+<g id="entity-HISTORIQUE">
+	<g id="frame-HISTORIQUE">
+		<rect x="120" y="102" width="90" height="25" fill="#a6dba0" stroke="#a6dba0" stroke-width="0"/>
+		<rect x="120" y="127.0" width="90" height="25" fill="#d9f0d3" stroke="#d9f0d3" stroke-width="0"/>
+		<rect x="120" y="102" width="90" height="50" fill="none" stroke="#5aae61" stroke-width="2"/>
+		<line x1="120" y1="127" x2="210" y2="127" stroke="#5aae61" stroke-width="1"/>
+	</g>
+	<text x="125" y="119.7" fill="#000000" font-family="Verdana" font-size="12">HISTORIQUE</text>
+	<text x="125" y="144.8" fill="#000000" font-family="Verdana" font-size="12">date</text>
+	<line x1="125" y1="147" x2="153" y2="147" stroke="#000000" stroke-width="1"/>
+</g>
+
+<!-- Entity STOCK -->
+<g id="entity-STOCK">
+	<g id="frame-STOCK">
+		<rect x="23" y="9" width="62" height="25" fill="#a6dba0" stroke="#a6dba0" stroke-width="0"/>
+		<rect x="23" y="34.0" width="62" height="43" fill="#d9f0d3" stroke="#d9f0d3" stroke-width="0"/>
+		<rect x="23" y="9" width="62" height="68" fill="none" stroke="#5aae61" stroke-width="2"/>
+		<line x1="23" y1="34" x2="85" y2="34" stroke="#5aae61" stroke-width="1"/>
+	</g>
+	<text x="32" y="26.7" fill="#000000" font-family="Verdana" font-size="12">STOCK</text>
+	<text x="28" y="51.8" fill="#000000" font-family="Verdana" font-size="12">quantité</text>
+	<line x1="28" y1="54" x2="79" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="28" y="68.8" fill="#000000" font-family="Verdana" font-size="12">date</text>
+</g>
+</svg>

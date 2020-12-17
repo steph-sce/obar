@@ -1,0 +1,10 @@
+STOCK: quantité, date
+::
+
+contient, 11 STOCK, 0N INGREDIENT
+HISTORIQUE: date
+achat, 11 HISTORIQUE, 0N BOISSON
+
+INGREDIENT: nom
+compose, 1N BOISSON, 0N INGREDIENT: quantité
+BOISSON: nom, prix

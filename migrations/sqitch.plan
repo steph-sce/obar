@@ -1,0 +1,7 @@
+%syntax-version=1.0.0
+%project=obar
+
+001-base-schema 2020-12-17T12:42:55Z "Etudiant O'clock",,, <etudiant@teleporteur> # Schema de base de mon application
+020-menu-view 2020-12-17T13:16:39Z "Etudiant O'clock",,, <etudiant@teleporteur> # Une vue pour afficher la carte
+030-ingredient_bougth 2020-12-17T13:34:23Z "Etudiant O'clock",,, <etudiant@teleporteur> # Fonction pour simplifier la manipultation du schema
+040-drink-soft-delete 2020-12-17T13:56:01Z "Etudiant O'clock",,, <etudiant@teleporteur> # Soft delete pour les boissons
